@@ -1,0 +1,28 @@
+.row1{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 10px 15px;
+    
+}
+.sp1{
+    border: 1px black solid;
+    text-align: center;
+    min-height: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    position: relative;
+    overflow: hidden;
+}
+.sp1 img{
+    width: 80%;
+    vertical-align: middle;
+    transition: 2s ease-in-out;
+    border: 1px #ccc solid;
+}
+.sp1 img:hover{
+    transform: scale(1.1) rotate(360deg);
+}

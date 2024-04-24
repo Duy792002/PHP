@@ -1,0 +1,368 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+.boxcenter{
+    width: 70%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.margin{
+    margin-bottom: 20px;
+}
+.margin10{
+    margin-bottom: 10px;
+}
+.margin_right{
+    margin-right:2% ;
+}
+.demo{
+    background-color: white;
+    min-width: 100px;
+}
+.header{
+    background-color: aquamarine;
+    border: 1px #009900 solid ;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 5px;
+}
+.footer{
+    background-color: aquamarine;
+    border: 1px #009900 solid ;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+.header h1{
+    margin: 20px;
+    font-size: 1.2vw;
+}
+.menu{
+    background-color: black;
+    font-size: 1vw;
+    color: #ccc;
+    border-radius: 5px;
+}
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.boxphai{
+    float: left;
+    width: 24%;
+}
+.boxtitle{
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    border: 1px #ccc solid;
+}
+.boxcontent{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+}
+.boxcontent2{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    background-color: white;
+}
+.boxfooter{
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+}
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    height: 300px;
+}
+.boxsp{
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.boxsp.img{
+    min-height: 250px;
+    text-align: center;
+}
+.imh img{
+    width: 60%;
+    height: 220px;
+}
+.menu ul{
+    padding: 0px 10px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+.menu ul li a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: white;
+    font-size: 1.2vw;
+}
+/* box tai khoản*/
+.formtaikhoan{
+    line-height: 150%;
+}
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="email"],
+.formtaikhoan input[type="password"],
+.formcontent input[type="text"]{
+    width: 100%;
+    border: 1px #ccc solid; 
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formtaikhoan input[type="checkbox"] {
+    border-radius: 5px;
+}
+.formtaikhoan input[type="submit"],
+.formtaikhoan input[type="reset"],
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"] {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #ccc solid;
+}
+.formtaikhoan input[type="submit"]:hover,
+.formtaikhoan input[type="reset"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover {
+    background-color:#ccc ;
+}
+.formtaikhoan li a{
+    color: teal;
+    text-decoration: none;
+}
+.formtaikhoan li a:hover{
+    color: #060;
+    text-decoration: underline;
+}
+/* Menu dọc*/
+.menudoc ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px #ccc solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.menudoc ul li:hover{
+    background-color: #ccc;
+}
+.search input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+}
+.top10 img{
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+.top10 a{
+    color: #666;
+    text-decoration: none;
+}
+.top10 a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.top10{
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+
+/* trang quản trị admin*/
+
+.headeradmin{
+    background-color: #eee;
+    border: 1px #ccc solid ;
+    font-size: 1vw;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.headeradmin h1{
+    font-size: 2vw;
+}
+.formtitle{
+    background-color: #eee;
+    border: 1px #ccc solid ;
+    font-size: 1vw;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.formcontent{
+    padding: 20px 0px;
+}
+.formdsloai table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.formdsloai table th{
+    
+    padding: 20px;
+    background-color: #ccc;
+}
+/* .formdsloai table th:nth-child(2){
+    width: 30%;
+    background-color: #ccc;
+}
+.formdsloai table th:nth-child(3){
+    width: 40%;
+    background-color: #ccc;
+}
+.formdsloai table th:nth-child(4){
+    width: 20%;
+    background-color: #ccc;
+} */
+.formdsloai table td{
+    padding: 10px;
+    border: 1px #ccc solid;
+}
+
+/* slide show*/
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .spct{
+    text-align: center;
+    
+  }
+  .spct img{
+    width: 50%;
+  }
+  .thongbao{
+    color: red;
+  }
+  
