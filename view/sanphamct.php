@@ -1,5 +1,5 @@
     <div class="row">
-        <div class="product">
+        <div class="product1">
                 <?php
                 $img = $img_path.$img;
                 echo '<div><img height="500px" width="500px" src ="'.$img.'"></div>
