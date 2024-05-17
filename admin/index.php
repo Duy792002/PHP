@@ -231,7 +231,7 @@ if(isset($_GET['act'])){
                     }else{
                         $tieu_de = $_POST['tieu_de'];
                         $noi_dung = $_POST['noi_dung'];
-                        $iddm = $_POST['id_danhmuc'];
+                        $iddm ="";
                         $file_name = $_FILES['hinh_anh']['name'];
                         $target_dir = "../upload/";
                         $target_file = $target_dir . basename($_FILES["hinh_anh"]["name"]);
@@ -268,48 +268,6 @@ if(isset($_GET['act'])){
                     $listsach = loadall_sach("",0);
                     include './sach/list.php';
                     break;
-
-                // case 'addsach':
-                //         unset($_SESSION["error"]);
-                //         if(isset($_POST['themmoi']) && ($_POST['themmoi'])){
-                //             $error = [];
-                //             if(empty($_POST["ten_sach"])){
-                //                 $error[] = "Vui lòng nhập tên sách";
-                //             }
-                //             if(empty($_FILES["hinh_anh"]["name"])){
-                //                 $error[] = "Vui lòng nhập chọn hình";
-                //             }
-                //             if(empty($_POST["gia"])){
-                //                 $error[] = "Vui lòng nhập giá";
-                //             }
-                //             if(empty($_POST["mo_ta"])){
-                //                 $error[] = "Vui lòng nhập mô tả";
-                //             }
-                            
-                            
-                //             if(count($error) >= 1){
-                //                 $_SESSION['error'] = $error;
-                //             }else{
-                //                 $ten_sach = $_POST['ten_sach'];
-                //                 $gia = $_POST['gia'];
-                //                 $mo_ta = $_POST['mo_ta'];
-                //                 //$id_nhaxuatban = $_POST['id_nhaxuatban'];
-                //                 $file_name = $_FILES['hinh_anh']['name'];
-                //                 $target_dir = "../upload/";
-                //                 $target_file = $target_dir . basename($_FILES["hinh_anh"]["name"]);
-                //                 if (move_uploaded_file($_FILES["hinh_anh"]["tmp_name"], $target_file)) {
-                //                     // echo "The file ". htmlspecialchars( basename( $_FILES["hinh"]["name"])). " has been uploaded.";
-                //                     } else {
-                //                         echo "Sorry, there was an error uploading your file.";
-                //                     }
-                //                     insert_sach($ten_sach, $gia, $file_name,  $mo_ta);
-                //                 $thongbao = "Thêm thành công";
-                //             }
-                //         }
-                //         $listdmnxb = loadall_nhaxuatban();
-                //         include "./sach/add.php";
-                //         break;
-                
         default:
             include 'home.php';
             break;

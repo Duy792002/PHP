@@ -9,11 +9,10 @@
                     <table>
                         <tr>
                             <th></th>
+                            <th>ID</th>
                             <th>TIÊU ĐỀ</th>
                             <th>NỘI DUNG</th>
                             <th>HÌNH ẢNH</th>
-                            <th>DANH MỤC</th>
-                            
                             <th></th>
                         </tr>
 
@@ -34,10 +33,10 @@
                                 echo '
                                     <tr>
                                         <td><input type="checkbox"></td>
+                                        <td>'.$id.'</td>
                                         <td>'.$tieu_de.'</td>
                                         <td>'.$noi_dung.'</td>
                                         <td>'.$hinh_anh.'</td>
-                                        <td>'.$ten_danhmuc.'</td>
                                         
                                         <td>
                                             <center>

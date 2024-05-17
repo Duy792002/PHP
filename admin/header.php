@@ -10,7 +10,7 @@
 <body>
     <div class="boxcenter">
         <div class="row margin headeradmin">
-            <h1>ADMIN</h1>
+            <h1 style="text-align: center;">WELCOME TO ADMIN</h1>
         </div>
         <div class="row margin menu">
             <ul>
@@ -22,6 +22,5 @@
                 <li><a href="index.php?act=thongke">Thống kê</a></li>
                 <li><a href="index.php?act=listbill">Danh sách đơn hàng</a></li>
                 <li><a href="index.php?act=listtintuc">Tin tức</a></li>
-                
             </ul>
         </div>
