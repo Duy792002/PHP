@@ -205,8 +205,11 @@ if(isset($_GET['act'])&&($_GET['act']!="")){
             include "view/gioithieu.php";
             break;
         case 'lienhe':
-                include "view/lienhe.php";
-                break;
+            include "view/lienhe.php";
+            break;
+        case 'tintuc':
+            include "view/tintuc.php";
+            break;
         default:
             include "view/home.php";
             break;

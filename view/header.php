@@ -105,11 +105,11 @@ function updateSession(productId, quantity) {
                 <li class="dropdown">
                     <a class="dropdownbtn" href="index.php?act=sanpham">Sản Phẩm</a>
                 <li class="dropdown">
-                    <a class="dropdownbtn" href="">Giới thiệu</a>
+                    <a class="dropdownbtn" href="index.php?act=gioithieu">Giới thiệu</a>
                 <li class="dropdown">
-                    <a class="dropdownbtn" href="">Liên hệ</a>
+                    <a class="dropdownbtn" href="index.php?act=tintuc">Tin Tức</a>
                 <li class="dropdown">
-                    <a class="dropdownbtn" href="">Bảo hành</a>
+                    <a class="dropdownbtn" href="index.php?act=lienhe">Liên Hệ</a>
                 
             </ul>
             <section class="timKiem">

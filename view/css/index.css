@@ -236,7 +236,7 @@ footer{
     padding-top: 10px;
 }
 .footer1{
-    display: flex;
+ 
     justify-content: space-between;
     background-image: linear-gradient(to bottom, rgb(150, 150, 150), rgb(110, 110, 110), rgb(80, 80, 80), rgb(60, 60, 60), rgb(30, 30, 30), black);
     padding-left: 5%;
