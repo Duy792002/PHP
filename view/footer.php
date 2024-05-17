@@ -4,7 +4,7 @@
                     <img src="view/images/logo.png" with="150px" height="150px">
                 </div>
                 <div class="footer1_con">
-                    <div class="aa"><a href="#">Địa Chỉ: Minh Khai, Nam Từ Liêm, Hà Nội</a><br></div>
+                    <div class="aa"><a href="#">Địa Chỉ: Trường Đại học Công Nghiệp Hà Nội</a><br></div>
                     <div class="aa"><a href="#">SĐT: 1900XXXXXX</a><br></div>
                     <div class="aa"><a href="#">Email: dstore@gmail.com</a><br></div>
                     <div class="aa"><a href="#">Câu hỏi thường gặp</a><br></div>
@@ -25,7 +25,7 @@
                 <div class="bottom-content" style="text-align:center">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5265.773997579407!2d105.73316025297851!3d21.05410220149119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345457e292d5bf%3A0x20ac91c94d74439a!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1715893890551!5m2!1svi!2s" 
                     width="300" 
-                    height="130" 
+                    height="150" 
                     style="border:0;" 
                     allowfullscreen="" 
                     loading="lazy" 
