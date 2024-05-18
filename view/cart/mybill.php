@@ -24,7 +24,7 @@
                                         <th>DA1-'.$bill['id'].'</th>
                                         <th>'.$bill['ngaydathang'].'</th>
                                         <th>'.$countsp.'</th>
-                                        <th>'.$bill['total'].' USD</th>
+                                        <th>'.$bill['total'].'VND</th>
                                         <th>'.$ttdh.'</th>
                                         <th>'.$tttt.'</th>
                                     </tr>';
