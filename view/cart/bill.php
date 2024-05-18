@@ -42,18 +42,9 @@
                         </table>
                     </div>
                 </div>
-                <div class="row mb">
-                <center><h3 class="dn">PHƯƠNG THỨC THANH TOÁN</h3></center>
-                    <div class="boxcontent">
-                        <table>
-                            <tr>
-                                <td><input type="radio" value="1" name="pttt" checked><center>Trả tiền khi nhận hàng</center></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
+
                 <div class="row mb frmdsloai">  
-                    <div class=" mb">
+                    <div class=" mb"
                         <center><h3 class="dn">ĐƠN HÀNG</h3></center>
                         <div class=" boxcontent cart">
                             <table>
@@ -63,10 +54,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mb bill">
-                    <center><input type="submit" value="ĐỒNG Ý ĐẶT HÀNG" name="dongydathang"></a></center>
-                </div>
+                <center><h3 class="dn">PHƯƠNG THỨC THANH TOÁN</h3></center>
+            <form class="" method="post" action="">
+               <input type="submit" value="Thanh toán khi nhận hàng" name="dongydathang">
+            </form>
         </form>
+        <form class="" method="post" target="_blank" enctype="application/x-www-form-urlencoded"
+                          action="index.php?act=thanhtoanmomo">
+                <input type="submit" name="momo" value="Thanh toan momo QR CODE" >
+        </form>
+        
     </div>
 
 </div>

@@ -171,7 +171,7 @@ if(isset($_GET['act'])&&($_GET['act']!="")){
                 $email=$_POST['email'];
                 $address=$_POST['address'];
                 $tel=$_POST['tel'];
-                $pttt=$_POST['pttt'];
+                $pttt="Thanh toán khi nhận hàng";
                 $ngaydathang=date('h:i:sa d/m/y');
                 $tongdonhang=tongdonhang();
 
@@ -191,6 +191,9 @@ if(isset($_GET['act'])&&($_GET['act']!="")){
             $bill=loadone_bill($idbill);
             $billct=loadall_cart($idbill);
             include "view/cart/billconfirm.php";
+            break;
+        case 'thanhtoanmomo':
+            include "view/cart/thanhtoanmomo.php";
             break;
         case 'mybill':
             $listbill=loadall_bill($_SESSION['user']['id']);

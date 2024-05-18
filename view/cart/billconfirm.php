@@ -12,12 +12,13 @@
                     extract($bill);
                 }
             ?>
+
             <div class="row mb">
                 <div class="boxtitle">Thông Tin Đơn Hàng</div>
                 <div class="row1 boxcontent" style="text-align:center">
                     <li>MÃ Đơn Hàng: DA1-<?=$bill['id'];?></li>
                     <li>Ngay Đặt Hàng: <?=$bill['ngaydathang'];?></li>
-                    <li>Tổng Số Tiền Đơn hàng: <?=$bill['total'];?> USD</li>
+                    <li>Tổng Số Tiền Đơn hàng: <?=$bill['total'];?> VND</li>
                     <li>Phương Thức Thanh Toán: <?=$bill['bill_pttt'];?></li>
                 </div>
             </div>

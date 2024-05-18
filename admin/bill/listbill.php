@@ -35,7 +35,7 @@
                                         <td>DA1- '.$bill['id'].'</td>
                                         <td>'.$kh.'</td>
                                         <td>'.$countsp.'</td>
-                                        <td>'.$bill['total'].' USD</td>
+                                        <td>'.$bill['total'].' VND</td>
                                         <td>'.$bill['ngaydathang'].'</td>
                                         <td>'.$ttdh.'</td>
                                         <td>'.$tttt.'</td>

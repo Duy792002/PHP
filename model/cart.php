@@ -50,9 +50,9 @@ function loadall_thongke(){
             <tr>
                 <td><img src="' . $hinh . '" alt="" height="80px"></td>
                 <td>' . $cart['name'] . '</td>
-                <td>' . $cart['price'] . ' USD</td>
+                <td>' . $cart['price'] . ' VND</td>
                 <td><input min="1" type="number" id="' . $quantityInputId . '" value="' . $cart['soluong'] . '" onchange="updateTotal(' . $cart['price'] . ', ' . $quantityInputId . ')"></td>
-                <td id="total_' . $cart['id'] . '">' . $ttien . ' USD</td>
+                <td id="total_' . $cart['id'] . '">' . $ttien . ' VND</td>
                 ' . $xoasp_td . '
             </tr>';
         $i += 1;
@@ -60,7 +60,7 @@ function loadall_thongke(){
 
     echo '<tr>
             <td colspan="4">Tổng đơn hàng</td>
-            <td id="grandTotal"> ' . $tong . ' USD</td>
+            <td id="grandTotal"> ' . $tong . ' VND</td>
             ' . $xoasp_td2 . '
         </tr>';
     }
@@ -75,16 +75,16 @@ function loadall_thongke(){
             <tr>
                 <td><img src="'.$hinh.'" alt="" height="80px"></td>
                 <td>'.$cart['name'].'</td>
-                <td>'.$cart['price'].' USD</td>
+                <td>'.$cart['price'].' VND</td>
                 <td>'.$cart['soluong'].'</td>
-                <td>'.$cart['thanhtien'].' USD</td> 
+                <td>'.$cart['thanhtien'].' UVND</td> 
             </tr>';
         $i+=1;
                 }
         echo '<tr>
                 <td colspan="4">Tổng đơn hàng</td>
                                 
-                <td> '.$tong.' USD</td>
+                <td> '.$tong.' VND</td>
                 </tr>';
     }
     function tongdonhang(){

@@ -7,7 +7,7 @@
 
                     <h2 class="namechitiet">'.$name.'</h2>
                     <p class="ttsp">Thông tin sản phẩm: <br>'.$mota.'</p>
-                    <div class="product-price gia">Giá: '.$price.' USD</div>';
+                    <div class="product-price gia">Giá: '.$price.' VND</div>';
 
                 ?>
                 

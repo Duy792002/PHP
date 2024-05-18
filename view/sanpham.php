@@ -19,7 +19,7 @@
                             <a href="'.$linksp.'">'.$name.'</a>
                         </div></center>
                         <center>
-                        <center><div class="gia">Giá: '.$price.' USD</div></center>  
+                        <center><div class="gia">Giá: '.$price.' VND</div></center>  
                         
                         <center><a href="'.$linksp.'" class="btn-buy">Mua Ngay</a></center>
                         </div>
