@@ -64,7 +64,7 @@
                                 <center><div class="tensp">
                                     <a href="'.$linksp.'">'.$name.'</a>
                                 </div></center>
-                                <center><div class="gia">Giá: '.$price.' USD</div></center> 
+                                <center><div class="gia">Giá: '.$price.' VND</div></center> 
                                     <a href="'.$linksp.'" class="btn-buy">Mua Ngay</a>
                                     </section>
                                     </div>

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="view/css/giohang.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="view/css/menu.css">
+    <link rel="stylesheet" href="view/css/tintuc.css">
     
     <script>
     function updateTotal(price, quantityInput) {

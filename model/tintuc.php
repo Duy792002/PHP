@@ -6,8 +6,8 @@
      return $list_tt;
  }
  
- function insert_tintuc($tieu_de, $noi_dung, $file_name, $iddm){
-     $sql = "INSERT INTO tintuc(tieu_de,noi_dung,hinh_anh,id) VALUES('$tieu_de', '$noi_dung', '$file_name', '$iddm' )";
+ function insert_tintuc($tieu_de, $noi_dung, $file_name, $id){
+     $sql = "INSERT INTO tintuc(tieu_de,noi_dung,hinh_anh,id) VALUES('$tieu_de', '$noi_dung', '$file_name', '$id')";
      pdo_execute($sql);
  }
 

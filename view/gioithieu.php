@@ -1,4 +1,3 @@
-<?php $gioithieu="index.php?act=gioithieu"; ?>
 
 <div class="header-bottom">
     </div>

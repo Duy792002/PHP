@@ -10,9 +10,9 @@
                         <tr>
                             <th></th>
                             <th>ID</th>
+                            <th>HÌNH ẢNH</th>
                             <th>TIÊU ĐỀ</th>
                             <th>NỘI DUNG</th>
-                            <th>HÌNH ẢNH</th>
                             <th></th>
                         </tr>
 
@@ -34,9 +34,9 @@
                                     <tr>
                                         <td><input type="checkbox"></td>
                                         <td>'.$id.'</td>
+                                        <td>'.$hinh.'</td>
                                         <td>'.$tieu_de.'</td>
                                         <td>'.$noi_dung.'</td>
-                                        <td>'.$hinh_anh.'</td>
                                         
                                         <td>
                                             <center>
