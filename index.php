@@ -211,6 +211,12 @@ if(isset($_GET['act'])&&($_GET['act']!="")){
             include "view/lienhe.php";
             break;
         case 'tintuc':
+            function loadall_tintuc(){
+                $sql = " SELECT * FROM tintuc ORDER BY id desc";
+                $list_tt = pdo_query($sql);
+                return $list_tt;
+            }
+            $tttintuc=loadall_tintuc();
             include "view/tintuc.php";
             break;
         default:

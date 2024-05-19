@@ -1,4 +1,4 @@
-<?php $lienhe="index.php?act=lienhe"; ?>
+
     <form action="" method="post" >
         <h1>GỬI LIÊN HỆ VỀ SHOP</h1>
         <div class="wapper-lh" >
@@ -32,7 +32,7 @@
                 </div>
             <div class="col-xs-12">
                 <div class="form-group">
-                    <input type="submit" name="submit" value="GỬI LIÊN HỆ" class="btn btn-success" onClick="return confirm('Bạn thật sự muốn gửi không ?');">
+                    <input style='backgroun-color: #e44b25' type="submit" name="submit" value="GỬI LIÊN HỆ" class="btn btn-success" onClick="return confirm('Bạn thật sự muốn gửi không ?');">
                 </div>
             </div>
         </div>

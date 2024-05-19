@@ -1,0 +1,35 @@
+.tieudett{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.tintuc {
+    margin-top: 30px;
+    background-color: #999;
+    height: 100%; 
+    width: 100%; 
+    text-align: center;
+}
+
+.tintuc .detail-tintuc {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.detail-tintuc .img-detail-tintuc {
+    width: 30%;
+}
+
+.detail-tintuc .img-detail-tintuc>img {
+    width: 100%;
+    height: auto;
+}
+
+.detail-tintuc .descri-detail-tintuc {
+    margin-left: 10px;
+    width: 70%;
+    text-align: left;
+}
