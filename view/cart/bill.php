@@ -58,17 +58,17 @@
         <form>
         <center><h3 class="dn">PHƯƠNG THỨC THANH TOÁN</h3></center>
         <form class="" method="post" action="">
-               <input type="submit" value="Thanh toán khi nhận hàng" name="dongydathang">
+               <input class = "pay-on-delivery" type="submit" value="THANH TOÁN KHI NHẬN HÀNG" name="dongydathang">
         </form>
 
         <form class="" method="post" target="_blank" enctype="application/x-www-form-urlencoded"
                           action="index.php?act=thanhtoanmomo">
-                <input type="submit" name="momo" value="Thanh toan momo QR CODE" >
+                <input class = "pay-with-momo" type="submit" name="momo" value="THANH TOÁN BẰNG MOMO QR CODE" >
         </form>
 
         <form class="" method="post" target="_blank" enctype="application/x-www-form-urlencoded"
                           action="view/cart/atmmomo.php">
-                <input type="submit" name="momo" value="Thanh toan ATM MOMO " >
+                <input class = "pay-with-momoatm" type="submit" name="momo" value="THANH TOÁN ATM MOMO" >
         </form>
         </form>
         
@@ -76,3 +76,47 @@
 
 </div>
 </div>
+<style>
+    .pay-on-delivery {
+        background-color: #e44d26;
+        text-align: center;
+        color: #fff;
+        border: 1px solid transparent;
+        outline: none;
+        transition: 0.2s ease;
+    }
+    .pay-on-delivery:hover {
+        background-color: transparent;
+        border-color: #e44d26;
+        color: #e44d26;
+        cursor: pointer;
+    }
+    .pay-with-momo {
+        background-color: #D31987;
+        text-align: center;
+        color: #fff;
+        border: 1px solid transparent;
+        outline: none;
+        transition: 0.2s ease;
+    }
+    .pay-with-momo:hover {
+        background-color: transparent;
+        border-color: #D31987;
+        color: #D31987;
+        cursor: pointer;
+    }
+    .pay-with-momoatm {
+        background-color: #D31987;
+        text-align: center;
+        color: #fff;
+        border: 1px solid transparent;
+        outline: none;
+        transition: 0.2s ease;
+    }
+    .pay-with-momoatm:hover {
+        background-color: transparent;
+        border-color: #D31987;
+        color: #D31987;
+        cursor: pointer;
+    }
+</style>

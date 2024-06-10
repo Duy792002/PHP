@@ -32,10 +32,11 @@ header img{
 .form{
     display: flex;
     align-items: center;
-    border: 1px solid #ddd;
+    border: 1px solid #e44d26;
     border-radius: 30px;
+    margin-left: 50px;
     padding: 2px;
-    height: 30px;
+    height: 100%;
 }
 .input{
     margin: 5px;
@@ -82,6 +83,16 @@ i.bx.bx-chevron-right::before{
     color:white;
     font-size: 50px;
 }
+.bx-chevron-left:hover {
+    cursor: pointer;
+    background-color: #e44d26;
+    border-radius: 4px;
+}
+.bx-chevron-right:hover {
+    cursor: pointer;
+    background-color: #e44d26;
+    border-radius: 4px;
+}
 .next{
     right: 0%;
     top: 40%;
@@ -121,6 +132,16 @@ i.bx.bx-chevron-left::before{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+.sanpham {
+    display: block;
+    position: relative;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    transition: transform linear 0.2s;
+}
+.sanpham:hover {
+    box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
+}
 .sp{
     width: 100%;
     margin-bottom: 20px;
@@ -131,6 +152,10 @@ i.bx.bx-chevron-left::before{
 .sp img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+.sp img:hover {
+    cursor: pointer;
+    filter: brightness(98%)
 }
 .sp .thongTin{
     padding-left: 5%;
@@ -282,19 +307,24 @@ footer{
 }
 .timKiem input[type="text"]{
     width: 100%;
-    border: 1px #ddd solid; 
+    border: none;
+    outline: none; 
     padding: 5px 10px;
     border-radius: 35px;
 }
 .timKiem input[type="text"]:hover{
-    border:1px solid #e44d26;
+    cursor: auto;
 }
 .timKiem input[type="submit"]{
     border-radius: 35px;
     padding: 5px 10px;
-    background-color: white;
-    border: 1px #ddd solid;
+    background-color: #e44d26;
+    border: none;
+    outline: none;
+    color: #fff;
 }
 .timKiem input[type="submit"]:hover{
-    border:1px solid #e44d26;
+    cursor: pointer;
+    border: 1px solid #e44d26;
+    filter: brightness(90%);
 }

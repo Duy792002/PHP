@@ -72,7 +72,7 @@ $dsbl = loadall_binhluan($idpro);
                         <input type="hidden" name="idpro" value="'.$idpro.'">
 
                         <input type="text" name="noidung" placeholder="Nội dung bình luận">
-                        <input type="submit" name="guibinhluan" value="Gửi bình luận">
+                        <input  class = "btn-comment"type="submit" name="guibinhluan" value="Gửi bình luận">
                     </form>
                 ';
             }else{

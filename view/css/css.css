@@ -57,6 +57,14 @@
     width: 230px;
     margin: 5px 18px;
     padding: auto;
+    position: relative;
+    display: block;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    transition: transform linear 0.2s;
+}
+.product-details2:hover {
+    box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
 }
 .product-details h2 {
     color: #333;
@@ -101,6 +109,12 @@
     text-decoration: none;
     border-radius: 5px;
     margin: 10px;  
+    border: none;
+    outline: none;
+}
+.btn-buy:hover {
+    cursor: pointer;
+    filter: brightness(85%);
 }
 .btn-buy2 {
     display: inline-block;
@@ -114,6 +128,10 @@
     width: 250px;  
     font-size: 25px;
     text-align: center;
+}
+.btn-buy2:hover {
+    cursor: pointer;
+    filter: brightness(85%);
 }
 .related-products {
     margin-top: 30px;
@@ -140,6 +158,14 @@
     flex: 1;
     border: 1px solid #ddd;
     border-radius: 20px;
+    display: block;
+    position: relative;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    transition: transform linear 0.2s;
+}
+.related-product-details:hover {
+    box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
 }
 
 .related-product-details h3 {
@@ -200,4 +226,17 @@
     padding-top: 20px;
     color: #000000;
     font-size: 25px;
+}
+.btn-comment {
+    background-color: blue;
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+    color: #fff;
+    transition: 0.2s ease;
+}
+.btn-comment:hover {
+    background-color: transparent;
+    border-color: blue;
+    color: #666;
 }

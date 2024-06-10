@@ -32,8 +32,23 @@
                 </div>
             <div class="col-xs-12">
                 <div class="form-group">
-                    <input style='backgroun-color: #e44b25' type="submit" name="submit" value="GỬI LIÊN HỆ" class="btn btn-success" onClick="return confirm('Bạn thật sự muốn gửi không ?');">
+                    <input class = "contact-submit" type="submit" name="submit" value="GỬI LIÊN HỆ" class="btn btn-success" onClick="return confirm('Bạn thật sự muốn gửi không ?');">
                 </div>
             </div>
         </div>
     </form>
+    <style>
+        .contact-submit {
+            background-color: blue;
+            color: #fff;
+            text-align: center;
+            border: 1px solid transparent;
+            transition: 0.3s ease;
+        }
+        .contact-submit:hover {
+            background-color: transparent;
+            color: blue;
+            border-color: blue;
+            cursor: pointer;
+        }
+    </style>

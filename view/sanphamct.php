@@ -1,4 +1,5 @@
-    <div class="row">
+
+   <div class="row">
         <div class="product1">
                 <?php
                 $img = $img_path.$img;
@@ -54,11 +55,12 @@
                     <form action="" method="POST">
                         <input type="hidden" name="idpro" value="">
                         <input type="text" name="noidung">
-                        <input type="submit" name="guibinhluan" value="Gửi bình luận">
+                        <input class = "cmt-submit" type="submit" name="guibinhluan" value="Gửi bình luận">
                     </form>
                 </div>
             </div>
         </div>
+
 
         <div class="related-products">
             <h2>Sản Phẩm Cùng Loại</h2>

@@ -53,6 +53,20 @@
                 </div>
             </div>
         </footer>
+        <style> 
+            .bxl-facebook-circle:hover {
+                color: #2176FF;
+            }
+            .bxl-instagram:hover {
+                color: #F70C4F;
+            }
+            .bxl-youtube:hover {
+                color: red;
+            }
+            .bxl-tiktok:hover {
+                color: #fff;
+            }
+        </style>
     </div>
     <script>
         var images = ["view/images/2.jpg","view/images/3.jpg","view/images/4.jpg","view/images/1.jpg"];

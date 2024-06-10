@@ -38,7 +38,7 @@ function loadall_thongke(){
         $tong += $ttien;
 
         if ($del == 1) {
-            $xoasp_td = '<td><a href="index.php?act=delcart&idcart=' . $cart['id'] . '"><input type="button" value=" Xóa"></a></td>';
+            $xoasp_td = '<td><a href="index.php?act=delcart&idcart=' . $cart['id'] . '"><input class = "del-item" type="button" value=" Xóa"></a></td>';
         } else {
             $xoasp_td = '';
         }
@@ -180,3 +180,18 @@ function loadall_thongke(){
     }
 
 ?>
+<style>
+    .del-item {
+        background-color: red;
+        border: 1px solid transparent;
+        outline: none;
+        color: #fff;
+        transition: 0.2s ease;
+    }
+    .del-item:hover {
+        background-color: transparent;
+        border-color: red;
+        color: red;
+        cursor: pointer;
+    }
+</style>
