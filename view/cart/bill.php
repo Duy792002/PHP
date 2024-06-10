@@ -54,14 +54,22 @@
                         </div>
                     </div>
                 </div>
-                <center><h3 class="dn">PHƯƠNG THỨC THANH TOÁN</h3></center>
-            <form class="" method="post" action="">
-               <input type="submit" value="Thanh toán khi nhận hàng" name="dongydathang">
-            </form>
         </form>
+        <form>
+        <center><h3 class="dn">PHƯƠNG THỨC THANH TOÁN</h3></center>
+        <form class="" method="post" action="">
+               <input type="submit" value="Thanh toán khi nhận hàng" name="dongydathang">
+        </form>
+
         <form class="" method="post" target="_blank" enctype="application/x-www-form-urlencoded"
                           action="index.php?act=thanhtoanmomo">
                 <input type="submit" name="momo" value="Thanh toan momo QR CODE" >
+        </form>
+
+        <form class="" method="post" target="_blank" enctype="application/x-www-form-urlencoded"
+                          action="view/cart/atmmomo.php">
+                <input type="submit" name="momo" value="Thanh toan ATM MOMO " >
+        </form>
         </form>
         
     </div>
